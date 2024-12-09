@@ -1,6 +1,6 @@
 # RPC project in Python
 
-This project implements a basic RPC server in Python using Flask and Flask-SocketIO.
+This project implements a basic RPC (Remote Procedure Call) server in Python using Flask and Flask-JSON-RPC. The server exposes several methods that can be called remotely over HTTP using JSON-RPC protocol.
 
 ## Instructions to run the project
 ### Prerequisites
@@ -51,7 +51,7 @@ The RPC accepts POST requests and cannot be accessed directly from the browser. 
       }
       ```
 7. Submit the request
-Click Send to submit the request.
+   Click Send to submit the request.
    
    This should return:
    
